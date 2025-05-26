@@ -18,7 +18,7 @@
     "target": "es2022",
     "customConditions": ["development"],
     "paths": {
-      "remote/Module": ["apps/rspack-nx-mf/apps/remote/src/remote-entry.ts"]
+      "@mf-aliases/remote/Module": ["apps/rspack-nx-mf/apps/remote/src/remote-entry.ts"]
     },
     "baseUrl": "."
   }

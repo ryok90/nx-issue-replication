@@ -2,7 +2,7 @@ import * as React from 'react';
 import NxWelcome from './nx-welcome';
 import { Link, Route, Routes } from 'react-router-dom';
 
-const Remote = React.lazy(() => import('remote/Module'));
+const Remote = React.lazy(() => import('@mf-aliases/remote/Module'));
 
 export function App() {
   return (

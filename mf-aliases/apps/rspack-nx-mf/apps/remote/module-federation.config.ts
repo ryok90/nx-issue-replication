@@ -1,7 +1,7 @@
 import { ModuleFederationConfig } from '@nx/module-federation';
 
 const config: ModuleFederationConfig = {
-  name: 'remote',
+  name: '@mf-aliases/remote',
   exposes: {
     './Module': './src/remote-entry.ts',
   },
